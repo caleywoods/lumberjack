@@ -1,4 +1,4 @@
 # config.ru
 require "rubygems"
-require "./lumberjack.rb"
+require File.expand_path("../lumberjack.rb", __FILE__)
 run Lumberjack::App
