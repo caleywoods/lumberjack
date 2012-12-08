@@ -1,6 +1,5 @@
 require 'guillotine' #URL shortening
 require 'redis'      #For redistogo on Heroku
-require 'haml'       #view templates
 
 # Haml::Options.defaults[:format] = :html5
 
