@@ -20,4 +20,4 @@ Connection: keep-alive```
 The Location header contains your short code, if you visit that URL it will redirect you to the URL you provided in the cURL POST.
 
 You can see a screenshot below using [hurl.it](http://hurl.it)
-![screenshot](http://i.imgur.com/lgCxX.png)
+![screenshot](http://i.imgur.com/OV0eX.png)
