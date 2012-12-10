@@ -1,8 +1,6 @@
 require 'guillotine' #URL shortening
 require 'redis'      #For redistogo on Heroku
 
-# Haml::Options.defaults[:format] = :html5
-
 module Lumberjack
   class App < Guillotine::App
     uri     = URI.parse(ENV["REDISTOGO_URL"])
