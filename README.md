@@ -3,6 +3,9 @@ lumberjack
 
 Cut down those URLs.
 
+###Status###
+Currently working but the UI isn't fully functional yet. I've not implemented the UI to show you the shortened code.
+
 To test this you can do the following in terminal:
 
 ```curl -X POST http://lumberjackapp.herokuapp.com -i -F"url=http://google.com"```
