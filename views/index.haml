@@ -1,2 +1,7 @@
-#welcome
-  Welcome to Lumberjack
+#container
+  #bar
+    .side#front
+      %form{action: "/", method: "post"}
+        %input{id: "input-url", type: "text", name: "url"}
+        %br/
+        %button Shorten
