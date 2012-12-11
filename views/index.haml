@@ -5,3 +5,9 @@
         %input{id: "input-url", type: "text", name: "url"}
         %br/
         %button Shorten
+
+    .side#back
+      %input{id: "output-url", readonly, type: "text"}
+      %button{id: "copy-button"}Copy
+      %span{id: "copied-msg"}Copied!
+      %a{id: "restart", href: "#"}Shorten another URL
