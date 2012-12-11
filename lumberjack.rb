@@ -9,7 +9,7 @@ module Lumberjack
     set :service => Guillotine::Service.new(adapter)
 
     get '/' do
-    	haml :index
+      haml :index
     end
 
   end
